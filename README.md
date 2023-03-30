@@ -1,5 +1,9 @@
 # Crowdfunding Your Billion-Dollar Idea: A Solidity Skills Assessment
 
+## Video Records
+- https://www.loom.com/share/e940472f7dc64de19e4f8d77ed8b9cad
+- https://www.loom.com/share/a3a41aacc30349cca38f7cbb0f5cca3a
+
 ## Your Challenge 
 Create a crowdfunding campaign where users can pledge and claim funds to, and claim funds from, the contract. 
 
