@@ -34,15 +34,21 @@ Hardhat is a development environment for building and deploying smart contracts 
 To use Hardhat, you must have Node.js installed.
 
 1. First, create a new directory for your project, navigate into the directory in your terminal and initialize a new npm package by running:
-```npm init -y```
+```
+npm init -y
+```
 
 2. Install Hardhat with the following command:
-```npm install --save-dev hardhat```
+```
+npm install --save-dev hardhat
+```
 
 ## Initializing Hardhat
 
 1. Initialize Hardhat within your project directory by running:
-```npx hardhat```
+```
+npx hardhat
+```
 
 2. Choose the type of project you're building from the provided list.
 
@@ -75,8 +81,13 @@ module.exports = {
 
 To deploy your contracts, run:
 
-```npx hardhat compile```
-```npx hardhat run --network [NETWORK_NAME] scripts/deploy.js```
+```
+npx hardhat compile
+```
+
+```
+npx hardhat run --network [NETWORK_NAME] scripts/deploy.js
+```
 
 Replace ``[NETWORK_NAME]`` with the name of the network you want to deploy to (e.g., ``mainnet``, ``goerli``, or a custom network).
 
